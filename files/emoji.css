@@ -1,0 +1,186 @@
+#MessageForm {
+    position: relative;
+    box-shadow: 0 0 20px 0px black;
+}
+#MessageImg {
+    /* position: relative; */
+    border-radius: 100px;
+    border: 3px solid white;
+    box-shadow: 0 0 7px #666;
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+#MessageUser {
+    position: absolute;
+    color: #478366;
+    font-family: impact;
+    font-size: 22px;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+#MessageMess {
+    position: relative;
+    color: white;
+    text-align: left;
+	word-wrap: break-word;
+    margin-top: 1%;
+	margin-left: 2%;
+}
+i.fa.fa-close.close {
+    position: absolute;
+    margin-left: -3%;
+    margin-top: 2%;
+    color: red;
+}
+hrs {
+    display: block;
+    unicode-bidi: isolate;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    margin-top: 1px;
+    width: 100%;
+    color: white;
+    position: absolute;
+}
+#btn-send {
+    position: absolute;
+    margin-top: -13%;
+    color: #fff;
+    height: 25%;
+    width: 45%;
+    margin-left: 52%;
+    padding: 1px 1px 1px 1px;
+    background: linear-gradient(to right, rgb(122, 134, 148), rgb(99, 107, 116))!important;
+    border: 0px solid;
+    box-shadow: rgba(119, 133, 148, 0.73) 7px 10px 23px -11px;
+	margin-bottom: 1rem!important;
+    margin-right: 1rem!important;
+    display: inline-block;
+    line-height: 1.25;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: 400;
+    user-select: none;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: all .2s ease-in-out;
+}
+#btn-help {
+    position: absolute;
+    margin-top: -13%;
+    color: #fff;
+    height: 25%;
+    width: 45%;
+    margin-left: 2%;
+    padding: 1px 1px 1px 1px;
+    background: linear-gradient(to right, rgb(122, 134, 148), rgb(99, 107, 116))!important;
+    border: 0px solid;
+    box-shadow: rgba(119, 133, 148, 0.73) 7px 10px 23px -11px;
+	margin-bottom: 1rem!important;
+margin-right: 1rem!important;
+    display: inline-block;
+    line-height: 1.25;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: 400;
+    user-select: none;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: all .2s ease-in-out;
+}
+#emojiArea {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 100%;
+    min-height: 100px;
+    font-family: Arial;
+    color: white;
+    background: #404e67;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+#emojiSend {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    border: solid;
+    height: 18%;
+}
+#emojiMessage {
+	z-index: 999;
+    background: #404E67;
+	overflow: auto;
+	overflow-x: hidden;
+    position: absolute;
+    width: 90%;
+    border: solid;
+    height: 70%;
+}
+#emojiMenu {
+    position: absolute;
+    z-index: 999;
+    width: 180px;
+    top: -433%;
+    margin-left: -155px;
+    height: 420%;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+#emojiMenuBtn {
+    background-image: url(/img/emojis/smiley.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    border: none;
+    padding: 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+#emojiMenuBtnWrapper {
+    position: absolute;
+        top: -5px;
+    right: 0px;
+}
+#emojiMenuBtnWrapper {
+    float: right;
+    padding: 5px 5px 0px 0px;
+}
+#emojiMenu > div {
+    height: 200px;
+    background: #fff;
+    width: 200px;
+    overflow: auto;
+    border-radius: 3px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#emojiMenu a {
+    margin: -1px 0 0 -1px;
+    border: 1px solid #f2f2f2;
+    padding: 5px;
+    display: block;
+    float: left;
+}
+#emojiMenu img, #emojiArea img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    border: 0 none;
+}
